@@ -20,6 +20,7 @@ def get_english_meaning(path, emoticon)
   emoticons.each do |key, value|
     if emoticon == value[1]
       result = key.to_s
+    end
   end
 result
 end
@@ -30,6 +31,7 @@ def get_japanese_emoticon(path, emoticon)
   emoticons.each do |key, value|
     if emoticon == value[0]
       result = value[1]
+    end
   end
   result
 end
