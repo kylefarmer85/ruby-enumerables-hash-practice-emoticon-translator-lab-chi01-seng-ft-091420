@@ -21,6 +21,7 @@ def get_japanese_emoticon(path, emoticon)
     if emoticon == value[1]
       result == key
     end
+  end
   result
 end
 
