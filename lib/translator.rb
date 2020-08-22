@@ -19,7 +19,7 @@ def get_english_meaning(path, emoticon)
   result = ''
   emoticons.each do |key, value|
     if emoticon == value[1]
-      result == value[0]
+      result = value[0]
     binding.pry
   end
 end
