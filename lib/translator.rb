@@ -22,6 +22,7 @@ def get_english_meaning(path, emoticon)
       result = value[0]
       binding.pry
   end
+  result
 end
 
 # def get_japanese_emoticon(path, emoticon)
