@@ -24,9 +24,11 @@ def get_english_meaning(path, emoticon)
     end
   end
 end
-if result == NIL
+if result == ''
   return "Sorry, that emoticon was not found"
+else
 result
+end
 end
 
 # def get_japanese_emoticon(path, emoticon)
