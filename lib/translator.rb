@@ -20,6 +20,7 @@ def get_english_meaning(path, emoticon)
   emoticons.each do |key, value|
     if emoticon == value[1]
       result = key.to_s
+      binding.pry
     end
   end
 result
