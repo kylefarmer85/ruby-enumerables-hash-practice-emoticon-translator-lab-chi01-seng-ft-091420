@@ -21,6 +21,7 @@ def get_english_meaning(path, emoticon)
     if emoticon == value[1]
       result = value[0]
   end
+end
   result
 end
 
