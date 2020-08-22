@@ -25,8 +25,8 @@ def get_english_meaning(path, emoticon)
   end
 end
 if result == ''
-  
-  
+  "Sorry, that emoticon was not found"
+else
 result
 end
 
