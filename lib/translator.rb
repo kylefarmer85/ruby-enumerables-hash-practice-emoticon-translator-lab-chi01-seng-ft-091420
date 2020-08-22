@@ -38,7 +38,8 @@ def get_japanese_emoticon(path, emoticon)
     value.each do |lang, emot|
     if emoticon == emot
       result = emot[1]
-    end
+      binding.pry
+      end
     end
   end
 if result == ''
