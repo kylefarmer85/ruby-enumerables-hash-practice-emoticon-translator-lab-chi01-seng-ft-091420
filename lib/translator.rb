@@ -19,7 +19,7 @@ def get_english_meaning(path, emoticon)
   result = ''
   emoticons.map do |key, value|
     if emoticon == value[1]
-      result = value[0]
+      result = key
   end
 end
 result
