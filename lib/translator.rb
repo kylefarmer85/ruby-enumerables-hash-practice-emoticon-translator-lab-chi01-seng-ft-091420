@@ -16,7 +16,7 @@ end
 
 def get_english_meaning(path, emoticon)
   emoticons = load_library(path)
-  emoticons.each do |key, value|
+  emoticons.map do |key, value|
     if emoticon == value[1]
       key.to_s
       binding.pry
